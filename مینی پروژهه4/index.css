@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:byekan;
+    src: url('./BYekan+.ttf') format(ttf)
+    , url('./BYekan+\ Bold.ttf') format(ttf);
+}
+@font-face {
+    font-family:lalezar;
+    src: url('./Lalezar.woff') format(woff);
+}
+body{
+    font-family: byekan;
+}
+.header{
+    height:550px;
+    background-image:url(./dark-wallpapers-994x400.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: rgb(254, 251, 251);
+     padding-top: 35px;
+     text-align: center;
+     
+}
+.header .nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.header .nav-list .nav-item{
+   display: inline-block;
+   padding: 15px;
+
+  
+}
+.header .nav-list .nav-item:hover{
+    color: orange;
+}
+.header h1{
+    font-family: lalezar;
+    font-size: 60px;
+    margin-top:90px;
+
+}
+.header h1 span{
+    color: orange;
+}
+li{
+    font-size: 20px;
+}
+.desc{
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+  background-color: rgba(0,0,0,3);
+  height: 55px;
+  line-height: 55px;
+  border-radius: 20px;
+  border:1px solid white ;
+  margin-top: 30px ;
+}
+.members{
+    text-align: center;
+    padding: 50px 30px;
+}    
+
+.member-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    
+}
+.member-item{
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow:0 0 15px #bbbb  ;
+    
+}
+.member-pic{
+    width: 100%;
+}
+.member-bio{
+    padding:20px;
+    text-align: justify;
+    font-family: lalezar;
+}
+.member-name{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.about{
+    height: 700px;
+    background-image: url(./designer-workpalce-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px ;
+   background-color: rgb(63, 63, 62);
+   background-blend-mode:multiply;
+
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(253, 234, 234, 0.21) ;
+    margin: auto ;
+    border-radius: 50%;
+    text-align: center;
+    padding: 100px 120px;
+    
+
+}
+.circle p{
+    padding-top: 40px;
+    text-align: justify;
+    color: white;
+}
+.circle  h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.footer{
+    height: 300px;
+    width: 200px;
+   
+    display:inline;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.footer p{
+    font-size: 30px;
+    font-family: lalezar;
+    background-color: rgba(10, 10, 10, 0.127);
+}
+.icone a{
+ 
+    height: 400px;
+    width: 300px;
+    padding: 10px 20px;
+}
